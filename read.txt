@@ -1,0 +1,7 @@
+Open 2 terminal
+go to directory file server and client
+client-> gcc -o client client.c
+server-> gcc -o server server.c
+server-> ./server 20000
+client-> ./client 20000
+if any thing worng happen change the path in program both server and client
